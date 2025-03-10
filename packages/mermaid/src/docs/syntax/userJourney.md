@@ -1,22 +1,27 @@
-# User Journey Diagram
-
-> User journeys describe at a high level of detail exactly what steps different users take to complete a specific task within a system, application or website. This technique shows the current (as-is) user workflow, and reveals areas of improvement for the to-be workflow. (Wikipedia)
-
-Mermaid can render user journey diagrams:
-
-```mermaid-example
 journey
-    title My working day
-    section Go to work
-      Make tea: 5: Me
-      Go upstairs: 3: Me
-      Do work: 1: Me, Cat
-    section Go home
-      Go downstairs: 5: Me
-      Sit down: 5: Me
-```
-
-Each user journey is split into sections, these describe the part of the task
-the user is trying to complete.
-
-Tasks syntax is `Task name: <score>: <comma separated list of actors>`
+    title 用户旅程图 - 在线设计工具使用场景
+    section 发现阶段
+      用户行为: 搜索产品信息
+      情绪曲线: 3
+      痛点: 信息分散，对比困难
+      机会点: 对比指南/案例库
+    section 决策阶段
+      用户行为: 试用免费版本
+      情绪曲线: 4
+      痛点: 试用功能受限
+      机会点: 限时完整版试用
+    section 使用阶段
+      用户行为: 完成核心任务
+      情绪曲线: 2
+      痛点: 操作路径复杂
+      机会点: 智能引导/快捷键
+    section 反馈阶段
+      用户行为: 联系客服
+      情绪曲线: 5
+      痛点: 反馈响应慢
+      机会点: 用户社区
+    section 传播阶段
+      用户行为: 社交媒体分享
+      情绪曲线: 3
+      痛点: 缺少分享激励
+      机会点: 积分奖励机制
